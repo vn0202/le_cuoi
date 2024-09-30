@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+w.tuybutky.com	TRUE	/cuoi-thanh-tung---kim-trinh-3013	FALSE	1999999999	LADI_FORM_SUBMIT	0
+w.tuybutky.com	TRUE	/cuoi-thanh-tung---kim-trinh-3013	FALSE	1999999999	LADI_FORM_SUBMIT_PATH	0
+w.tuybutky.com	TRUE	/cuoi-thanh-tung---kim-trinh-3013	FALSE	1999999999	LADI_PAGE_VIEW	1
+w.tuybutky.com	TRUE	/cuoi-thanh-tung---kim-trinh-3013	FALSE	1999999999	LADI_PAGE_VIEW_PATH	1
+w.tuybutky.com	TRUE	/	FALSE	1999999999	LADI_CLIENT_ID	c6033f57-72e6-4b9a-5aa6-2d1edb2b409f
+w.tuybutky.com	TRUE	/	FALSE	1999999999	LADI_DNS_CHECK	2024-09-30 04:07:56.402133247 +0000 UTC m=+1475072.319322430"
+api.sales.ldpform.net	TRUE	/	FALSE	1999999999	AWSALBTG	C9pJ3wuMxxeJML2+/6WtLcDze7m+2LUBV+nxBb3lXaZ+J4trg9d9VCELtV9lWjoUOxDChBMH4PE7+RTgWYx2MKA5M+sc5tnYgLG7izqrvRZk6k0N86o1Y1Hgw2HHLm7juOOXeqwLn4zM4vTi0MQA8aEB9OunUevqgc4VynW1ybftabZB0r4=
+api.sales.ldpform.net	TRUE	/	FALSE	1999999999	AWSALBTGCORS	C9pJ3wuMxxeJML2+/6WtLcDze7m+2LUBV+nxBb3lXaZ+J4trg9d9VCELtV9lWjoUOxDChBMH4PE7+RTgWYx2MKA5M+sc5tnYgLG7izqrvRZk6k0N86o1Y1Hgw2HHLm7juOOXeqwLn4zM4vTi0MQA8aEB9OunUevqgc4VynW1ybftabZB0r4=
+api.sales.ldpform.net	TRUE	/	FALSE	1999999999	AWSALB	Zso+oLRnvq03r7Myh0kGvaKmNsid++nD8tmEWm1tVZASWs5xZaXpFKg6WkntbPf+dhmAut+P26gOgfyiiKqBDtWWOoyY0+yH2B66mCqIRYn86Rq/ilvxunZEjLfU
+api.sales.ldpform.net	TRUE	/	FALSE	1999999999	AWSALBCORS	Zso+oLRnvq03r7Myh0kGvaKmNsid++nD8tmEWm1tVZASWs5xZaXpFKg6WkntbPf+dhmAut+P26gOgfyiiKqBDtWWOoyY0+yH2B66mCqIRYn86Rq/ilvxunZEjLfU
+api.sales.ldpform.net	TRUE	/	FALSE	1999999999	SameSite	None
+
