@@ -134,10 +134,11 @@
             if (params.has('text')) {
                 // Get the value of 'text' query parameter
                  textToShow = params.get('text');
-               const text_placeholder =  document.getElementsByClassName("name-friend");
-                for (const textPlaceholderElement of text_placeholder) {
-                    textPlaceholderElement.textContent = textToShow
-                }
+
+            }
+            const text_placeholder =  document.getElementsByClassName("name-friend");
+            for (const textPlaceholderElement of text_placeholder) {
+                textPlaceholderElement.textContent = textToShow
             }
             if (params.has('attachment')) {
                 // Get the value of 'text' query parameter
