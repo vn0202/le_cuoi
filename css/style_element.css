@@ -83,7 +83,7 @@
 }
 
 #PARAGRAPH4 > .ladi-paragraph, #PARAGRAPH50 > .ladi-paragraph {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1.6;
     color: rgb(0, 0, 0);
@@ -107,6 +107,8 @@
 #IMAGE2, #IMAGE8, #IMAGE17, #IMAGE31 {
     top: 0px;
 }
+#IMAGE31
+{top:-30px}
 
 #IMAGE5, #IMAGE5 > .ladi-image > .ladi-image-background, #IMAGE8, #IMAGE8 > .ladi-image > .ladi-image-background, #IMAGE17, #IMAGE17 > .ladi-image > .ladi-image-background {
     width: 200px;
@@ -179,7 +181,7 @@
 }
 
 #PARAGRAPH12 > .ladi-paragraph {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.6;
     color: rgb(0, 0, 0);
     text-align: right;
@@ -467,7 +469,7 @@
 
     #BOX2 {
         width: 653px;
-        height: 410.901px;
+        height: 450.901px;
         top: 63.7985px;
         left: 0px;
     }
@@ -524,7 +526,7 @@
     }
 
     #IMAGE4 > .ladi-image > .ladi-image-background, #IMAGE36 > .ladi-image > .ladi-image-background {
-        background-image: url("../w.ladicdn.com/s400x400/5e51ff6161a254079fc6d2ed/may-tinh-9111-20231009133927-br-wb.png");
+        background-image: url("../images/heart.png");
     }
 
     #IMAGE2, #IMAGE2 > .ladi-image > .ladi-image-background, #IMAGE37, #IMAGE37 > .ladi-image > .ladi-image-background {
@@ -537,7 +539,7 @@
     }
 
     #IMAGE2 > .ladi-image > .ladi-image-background, #IMAGE37 > .ladi-image > .ladi-image-background, #IMAGE31 > .ladi-image > .ladi-image-background {
-        background-image: url("../w.ladicdn.com/s500x450/5e51ff6161a254079fc6d2ed/2023-1311-20231009123126-gqhgr.png");
+        background-image: url("https://w.ladicdn.com/s550x450/5e51ff6161a254079fc6d2ed/2023-1311-20231009123126-gqhgr.png");
     }
 
     #SECTION3 {
@@ -771,7 +773,7 @@
     }
 
     #IMAGE11 > .ladi-image > .ladi-image-background {
-        background-image: url("../images/black-suit-2.jpg");
+        background-image: url("../images/black-suit-5.jpg");
 
     }
 
@@ -952,7 +954,7 @@
     }
 
     #IMAGE21 > .ladi-image > .ladi-image-background {
-        background-image: url("../w.ladicdn.com/s750x700/5e51ff6161a254079fc6d2ed/ban-sao-cua-anh-cuoi-klxtqs-2-300x267-1-20231009140935-cor7b.png");
+        background-image: url("https://w.ladicdn.com/s600x550/5e51ff6161a254079fc6d2ed/ban-sao-cua-anh-cuoi-klxtqs-2-300x267-1-20231009140935-cor7b.png");
     }
 
     #GROUP14, #BOX8, #GROUP15, #BOX9 {
@@ -1196,7 +1198,7 @@
 
     #BOX2 {
         width: 407.88px;
-        height: 373.66px;
+        height: 400.66px;
         top: 39.8503px;
         left: 6.5px;
     }
@@ -1226,7 +1228,7 @@
 
     #PARAGRAPH5 {
         width: 379px;
-        top: 291.801px;
+        top: 265.801px;
         left: 21.2983px;
     }
 
@@ -1235,7 +1237,7 @@
     }
 
     #PARAGRAPH6 {
-        top: 223.713px;
+        top: 196.713px;
         left: 0px;
     }
 
@@ -1251,7 +1253,7 @@
         left: 50%;
     }
     #IMAGE4 {
-        top: 231.129px;
+        top: 200.129px;
         left: 187.449px;
     }
 
@@ -1379,7 +1381,7 @@
 
     #IMAGE36 {
         top: 239.579px;
-        left: 188.697px;
+        left: 170.697px;
     }
 
     #IMAGE37, #IMAGE37 > .ladi-image > .ladi-image-background {
@@ -1472,9 +1474,14 @@
         height: 297.145px;
     }
 
-    #IMAGE9 > .ladi-image > .ladi-image-background, #IMAGE16 > .ladi-image > .ladi-image-background {
-        background-image: url("../images/black-suit-1.jpg");
-    }
+    #IMAGE9 > .ladi-image > .ladi-image-background {
+        background-image: url("../images/main-bg.jpg");
+        background-position: center;
+    }#IMAGE16 > .ladi-image > .ladi-image-background
+         {
+             background-image: url("../images/black-suit-1.jpg");
+             background-position: center;
+         }
 
     #FRAME2 {
         top: 243.991px;
@@ -1509,7 +1516,7 @@
     }
 
     #IMAGE13 > .ladi-image > .ladi-image-background {
-        background-image: url("../images/black-suit-1.jpg");
+        background-image: url("../images/black-suit-5.jpg");
     }
 
     #FRAME6 {
@@ -1653,7 +1660,7 @@
     }
 
     #IMAGE21 > .ladi-image > .ladi-image-background {
-        background-image: url("../w.ladicdn.com/s600x550/5e51ff6161a254079fc6d2ed/ban-sao-cua-anh-cuoi-klxtqs-2-300x267-1-20231009140935-cor7b.png");
+        background-image: url("https://w.ladicdn.com/s600x550/5e51ff6161a254079fc6d2ed/ban-sao-cua-anh-cuoi-klxtqs-2-300x267-1-20231009140935-cor7b.png");
     }
 
     #GROUP14, #BOX8, #GROUP15, #BOX9 {
@@ -1790,7 +1797,7 @@
     }
 
     #IMAGE31 > .ladi-image > .ladi-image-background {
-        background-image: url("../w.ladicdn.com/s550x450/5e51ff6161a254079fc6d2ed/2023-1311-20231009123126-gqhgr.png");
+        background-image: url("https://w.ladicdn.com/s550x450/5e51ff6161a254079fc6d2ed/2023-1311-20231009123126-gqhgr.png");
     }
 }
 
