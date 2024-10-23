@@ -129,26 +129,41 @@
         document.addEventListener("DOMContentLoaded", ()=>{
             const params = new URLSearchParams(window.location.search);
             let  textToShow = "Bạn";
-            let attachment_placeholder_text = " người thương"
+            let attachment_placeholder_text = " người thương";
+            let fullname="";
 
             if (params.has('text')) {
                 // Get the value of 'text' query parameter
                  textToShow = params.get('text');
 
             }
-            const text_placeholder =  document.getElementsByClassName("name-friend");
-            for (const textPlaceholderElement of text_placeholder) {
-                textPlaceholderElement.textContent = textToShow
-            }
-            if (params.has('attachment')) {
+            if (params.has('fullname')) {
                 // Get the value of 'text' query parameter
-                attachment_placeholder_text = params.get('attachment');
+                fullname = params.get('text');
+                const text_fullname_placeholder =  document.getElementsByClassName("full-name-friend");
 
+                for (const textFullPlaceholderElement of text_fullname_placeholder) {
+                    textFullPlaceholderElement.textContent = fullname;
+                    textFullPlaceholderElement.style.color="F30000FF";
+                }
             }
-            const attachment_placeholder =  document.getElementsByClassName("attachment");
-            for (const textPlaceholderElement of attachment_placeholder) {
-                textPlaceholderElement.textContent = attachment_placeholder_text
+            else{
+                const text_placeholder =  document.getElementsByClassName("name-friend");
+                for (const textPlaceholderElement of text_placeholder) {
+                    textPlaceholderElement.textContent = textToShow
+                }
+                if (params.has('attachment')) {
+                    // Get the value of 'text' query parameter
+                    attachment_placeholder_text = params.get('attachment');
+
+                }
+                const attachment_placeholder =  document.getElementsByClassName("attachment");
+                for (const textPlaceholderElement of attachment_placeholder) {
+                    textPlaceholderElement.textContent = attachment_placeholder_text
+                }
             }
+
+
             let address = "xóm 3, Xuân Phong, xã Xuân Giang, Xuân Trường, Nam Định";
             let location_link ="https://maps.app.goo.gl/XJxpAPeos8nTAPHj6";
 
@@ -226,7 +241,7 @@
                             <div class='ladi-paragraph'>TRÂN TRỌNG KÍNH MỜI</div>
                         </div>
                         <div id="PARAGRAPH3" class='ladi-element'>
-                            <div class='ladi-paragraph'><span class="name-friend" style="color: rgb(243, 0, 0);"> </span> cùng
+                            <div class='ladi-paragraph full-name-friend'><span class="name-friend" style="color: rgb(243, 0, 0);"> </span> cùng
                                 <span class="attachment"></span>
                             </div>
                         </div>
@@ -315,7 +330,7 @@
                 <div class='ladi-paragraph'>TRÂN TRỌNG KÍNH MỜI</div>
             </div>
             <div id="PARAGRAPH49" class='ladi-element'>
-                <div  class='ladi-paragraph '><span class="name-friend" style="color: rgb(243, 0, 0);"></span> cùng
+                <div  class='ladi-paragraph full-name-friend'><span class="name-friend" style="color: rgb(243, 0, 0);"></span> cùng
                     <span class="attachment"></span>
                 </div>
             </div>
