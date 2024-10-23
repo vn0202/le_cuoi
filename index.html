@@ -10,8 +10,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Expires" content="-1">
 	<meta name="keywords" content="">
-	<meta name="description" content="NVA3013 - Văn Nghĩa &#38; Khánh Huyền">
+	<meta name="description" content="Dành tặng bạn bè thân yêu một lời mời đặc biệt đến dự lễ cưới của chúng tôi! Tham gia cùng chúng tôi trong ngày trọng đại và cùng nhau chia sẻ những khoảnh khắc ý nghĩa">
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
+	<meta property="og:image" content="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/464325231_1237074707336006_3381765087927932007_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH3yckZgXJGC3gRx1d1bgXjwjv6zI_HYVjCO_rMj8dhWEFjmLkc55XY4po65HGN52f0x9SG0QMLKewQaSUNr2wB&_nc_ohc=G7r3CR4NgswQ7kNvgFRqNYA&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=AGBZU_pm21hkya0gTU0LGjD&oh=00_AYAG1qnqx76gAny5X2B-MfXt8eUmrwHlb7lCll7S8uI4Jg&oe=671D9C47">
 	<script type='text/javascript'>window.ladi_viewport = function (b) {
 		var a = document;
 		b = b ? b : 'innerWidth';
@@ -51,11 +52,11 @@
 	window.ladi_ttq = function () {
 		window.ladi_ttq_data.push(arguments);
 	};</script>
-	<link rel="canonical" href="lecuoi-nghia-huyen.html"/>
+	<link rel="canonical" href="index.html"/>
 	<meta property="og:url" content="https://w.tuybutky.com//cuoi-thanh-tung---kim-trinh-3013"/>
-	<meta property="og:title" content="NVA3013 - Văn Nghĩa &#38; Khánh Huyền"/>
+	<meta property="og:title" content="Thiệp cưới Văn Nghĩa &#38; Khánh Huyền"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:description" content="NVA3013 - Văn Nghĩa &#38; Khánh Huyền"/>
+	<meta property="og:description" content=" Dành tặng bạn bè thân yêu một lời mời đặc biệt đến dự lễ cưới của chúng tôi! Tham gia cùng chúng tôi trong ngày trọng đại và cùng nhau chia sẻ những khoảnh khắc ý nghĩa"/>
 	<meta name="format-detection" content="telephone=no"/>
 	<link rel="dns-prefetch">
 	<link rel="preconnect" href="../fonts.googleapis.com/index.html" crossorigin>
@@ -67,7 +68,7 @@
 	<link rel="preconnect" href="../api.sales.ldpform.net/index.html" crossorigin>
 	<link rel="preconnect" href="../g.ladicdn.com/index.html" crossorigin>
 	<link rel="preload" href="../w.ladicdn.com/v4/source/ladipagev3.min041e.js?v=1725620447318" as="script">
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
 	<style type="text/css" id="style_animation">@media (min-width: 768px) {
 		#IMAGE5, #IMAGE6, #IMAGE7, #IMAGE8, #FRAME1, #FRAME2, #FRAME3, #FRAME4, #FRAME5, #FRAME6, #FRAME7, #FRAME8, #IMAGE17 {
 			opacity: 0 !important;
@@ -110,11 +111,64 @@
 	body {
 		font-family: UXVlcRyaWFsLVJlZVsYXIudHRm
 	}</style>
-	<link rel="stylesheet" href="../css/style_element.css">
+	<link rel="stylesheet" href="./css/style_element.css">
 	<style id="style_lazyload"
 		   type="text/css">body.lazyload .ladi-overlay, body.lazyload .ladi-box, body.lazyload .ladi-button-background, body.lazyload .ladi-collection-item:before, body.lazyload .ladi-countdown-background, body.lazyload .ladi-form-item-background, body.lazyload .ladi-form-label-container .ladi-form-label-item.image, body.lazyload .ladi-frame-background, body.lazyload .ladi-gallery-view-item, body.lazyload .ladi-gallery-control-item, body.lazyload .ladi-headline, body.lazyload .ladi-image-background, body.lazyload .ladi-image-compare, body.lazyload .ladi-list-paragraph ul li:before, body.lazyload .ladi-section-background, body.lazyload .ladi-survey-option-background, body.lazyload .ladi-survey-option-image, body.lazyload .ladi-tabs-background, body.lazyload .ladi-video-background, body.lazyload .ladi-banner, body.lazyload .ladi-spin-lucky-screen, body.lazyload .ladi-spin-lucky-start {
 		background-image: none !important;
 	}</style>
+
+	<style>
+		.address_placeholder{
+			text-align: center;
+			font-size: 18px;
+			margin-top: 6px;
+		}
+	</style>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", ()=>{
+			const params = new URLSearchParams(window.location.search);
+			let  textToShow = "Bạn";
+			let attachment_placeholder_text = " người thương"
+
+			if (params.has('text')) {
+				// Get the value of 'text' query parameter
+				textToShow = params.get('text');
+
+			}
+			const text_placeholder =  document.getElementsByClassName("name-friend");
+			for (const textPlaceholderElement of text_placeholder) {
+				textPlaceholderElement.textContent = textToShow
+			}
+			if (params.has('attachment')) {
+				// Get the value of 'text' query parameter
+				attachment_placeholder_text = params.get('attachment');
+
+			}
+			const attachment_placeholder =  document.getElementsByClassName("attachment");
+			for (const textPlaceholderElement of attachment_placeholder) {
+				textPlaceholderElement.textContent = attachment_placeholder_text
+			}
+			let address = "xóm 3, Xuân Phong, xã Xuân Giang, Xuân Trường, Nam Định";
+			let location_link ="https://maps.app.goo.gl/XJxpAPeos8nTAPHj6";
+
+
+			if (!params.has('groom')) {
+				address = "xóm 10 , Xuân Phong, xã Xuân Giang, Xuân Trường, Nam Định";
+				location_link = "https://maps.app.goo.gl/xxuxHhzUsLaqVwZR9";
+
+			}
+			const address_placeholder =  document.getElementsByClassName("address_placeholder");
+			for (const addressPlaceholder of address_placeholder) {
+				addressPlaceholder.textContent = address
+			}
+			const address_link =  document.getElementsByClassName("location");
+			for (const locationPlaceholder of address_link) {
+				locationPlaceholder.setAttribute('href','location_link');
+			}
+		})
+
+	</script>
 </head>
 <body class="lazyload">
 <div class="ladi-wraper">
@@ -172,16 +226,22 @@
 							<div class='ladi-paragraph'>TRÂN TRỌNG KÍNH MỜI</div>
 						</div>
 						<div id="PARAGRAPH3" class='ladi-element'>
-							<div class='ladi-paragraph'><span style="color: rgb(243, 0, 0);">!::name|Bạn::! </span>cùng
-								người thân thương
+							<div class='ladi-paragraph'><span class="name-friend" style="color: rgb(243, 0, 0);"> </span> cùng
+								<span class="attachment"></span>
 							</div>
 						</div>
 						<div id="PARAGRAPH4" class='ladi-element'>
-							<div class='ladi-paragraph'>TỚI THAM DỰ LỄ THÀNH HÔN CỦA CHÚNG MÌNH</div>
+							<div class='ladi-paragraph'>TỚI DỰ BỮA CƠM THÂN MẬT CỦA HAI CHÚNG TÔI  </div>
 						</div>
 						<div id="PARAGRAPH5" class='ladi-element'>
-							<div class='ladi-paragraph'>HÔN LỄ ĐƯỢC CỬ HÀNH TẠI TƯ GIA
-								<br>VÀO LÚC 10 GIỜ 30, THỨ 7, NGÀY 02, THÁNG 11, NĂM 2024<br></div>
+							<div class='ladi-paragraph'>
+								VÀO LÚC 10 GIỜ 00, THỨ 7, NGÀY 02, THÁNG 11, NĂM 2024<br>
+								ĐƯỢC TỔ CHỨC TẠI TƯ GIA
+							</div>
+							<div class="address_placeholder"></div>
+							<div style="text-align: center"><a class="location" style="text-decoration: underline;color:blue; font-size: 18px" href="">
+								<?xml version="1.0" ?><svg height="24" version="1.1" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><g transform="translate(0 -1028.4)"><path d="m12 0c-4.4183 2.3685e-15 -8 3.5817-8 8 0 1.421 0.3816 2.75 1.0312 3.906 0.1079 0.192 0.221 0.381 0.3438 0.563l6.625 11.531 6.625-11.531c0.102-0.151 0.19-0.311 0.281-0.469l0.063-0.094c0.649-1.156 1.031-2.485 1.031-3.906 0-4.4183-3.582-8-8-8zm0 4c2.209 0 4 1.7909 4 4 0 2.209-1.791 4-4 4-2.2091 0-4-1.791-4-4 0-2.2091 1.7909-4 4-4z" fill="#e74c3c" transform="translate(0 1028.4)"/><path d="m12 3c-2.7614 0-5 2.2386-5 5 0 2.761 2.2386 5 5 5 2.761 0 5-2.239 5-5 0-2.7614-2.239-5-5-5zm0 2c1.657 0 3 1.3431 3 3s-1.343 3-3 3-3-1.3431-3-3 1.343-3 3-3z" fill="#c0392b" transform="translate(0 1028.4)"/></g></svg>
+								Xem bản đồ</a></div>
 						</div>
 						<div id="PARAGRAPH6" class='ladi-element'>
 							<div class='ladi-paragraph'>Khánh Huyền&nbsp; &nbsp; &nbsp; &nbsp;Văn Nghĩa</div>
@@ -215,21 +275,19 @@
 						<div class='ladi-paragraph'>Khánh Huyền</div>
 					</div>
 					<div id="PARAGRAPH10" class='ladi-element'>
-						<div class='ladi-paragraph'>“Không ngờ được ” đó là câu nói tôi hay nói từ khi chúng tôi bắt đầu
-							yêu và giờ thì… chúng tôi kết hôn rồi. Trải qua nhiều biến cố trong chuyện tình cảm chúng
-							tôi khá dè dặt khi lại 1 lần nữa bước chân vào hôn nhân. Và rồi… “Chốt thôi”♥ ♥
+						<div class='ladi-paragraph'>Mùa hè năm ấy, có một người con trai lặng lẽ bước vào cuộc đời em – anh ấy nhút nhát, nhưng chân thành. Chúng em bắt đầu bằng những tin nhắn đơn giản, nhưng từ đó dần nảy nở một tình yêu dịu dàng. Em luôn nhớ về những ngày anh kiên nhẫn "thả tym" mỗi ngày, từng chút từng chút một, rồi bất ngờ nhận ra trái tim mình đã rung động từ lúc nào. Và rồi… “Cưới thôi”♥ ♥
 						</div>
 					</div>
 				</div>
 			</div>
 			<div id="IMAGE6" class='ladi-element'>
-				<div class='ladi-image'>
-					<img width="300px" height="300px"   style="object-fit: cover;object-position: top ;border-radius: 100%" src="../images/groom.jpg" alt="">
+				<div class='ladi-image' style="width: 300px; height: 300px; overflow: hidden;border-radius: 100%">
+					<img width="300px" height="300px"   style="object-fit: cover;object-position: top ;border-radius: 100%; scale: 1.9" src="../images/bride2.jpg" alt="">
 				</div>
 			</div>
 			<div id="IMAGE7" class='ladi-element'>
-				<div class='ladi-image'>
-					<img width="300px" height="300px"   style="object-fit: cover;object-position: top ;border-radius: 100%" src="../images/bride2.jpg" alt="">
+				<div class='ladi-image' style="overflow: hidden; width: 300px; height: 300px;border-radius: 100%; overflow: hidden">
+					<img width="300px" height="300px"   style="overflow:hidden;object-fit: cover;object-position: top ;border-radius: 100%" src="../images/groom.jpg" alt="">
 				</div>
 			</div>
 			<div id="GROUP4" class='ladi-element'>
@@ -238,9 +296,9 @@
 						<div class='ladi-paragraph'>Văn Nghĩa</div>
 					</div>
 					<div id="PARAGRAPH12" class='ladi-element'>
-						<div class='ladi-paragraph'>” Tôi hạnh phúc khi ở bên cô ấy.” Thật sự mà nói chúng tôi đã trải
-							qua nhiều biến cố trong chuyện tình cảm. Quyết định đến với nhau là kết quả cả cả hai chúng
-							tôi đã phấn đấu vì nhau , thay đổi và bổ trợ cho nhau. Và … Chúng tôi đã về chung 1 nhà. ♥ ♥
+						<div class='ladi-paragraph'>” Vốn tính nhút nhát và hơi hướng nội, tôi k nghĩ mình sẽ tự tìm được ny, nhưng không hiểu sao, mùa hè năm ấy lại mang đến một nguồn động lực khác lạ.
+							Và chiến thuật "thả tym" hàng ngày của tôi đã thành công.  Và từ những tin nhắn dần trở nên thân thiết, chúng tôi bắt đầu viết nên câu chuyện tình yêu của riêng mình.
+							Có lẽ, điều khiến mọi người thắc mắc nhất là cái tên Zalo "bánh xà bông" của tôi. Mỗi khi được hỏi, tôi chỉ cười và trả lời rằng, đôi khi những điều giản dị và bất ngờ nhất lại mang đến kết quả tuyệt vời nhất – như cách mà tôi đã tìm thấy tình yêu của đời mình.. Và … Chúng tôi đã về chung 1 nhà. ♥ ♥
 						</div>
 					</div>
 				</div>
@@ -257,8 +315,8 @@
 				<div class='ladi-paragraph'>TRÂN TRỌNG KÍNH MỜI</div>
 			</div>
 			<div id="PARAGRAPH49" class='ladi-element'>
-				<div class='ladi-paragraph'><span style="color: rgb(243, 0, 0);">!::name|Bạn::!</span> cùng người thân
-					thương
+				<div  class='ladi-paragraph '><span class="name-friend" style="color: rgb(243, 0, 0);"></span> cùng
+					<span class="attachment"></span>
 				</div>
 			</div>
 			<div id="PARAGRAPH50" class='ladi-element'>
@@ -281,10 +339,10 @@
 				</div>
 			</div>
 			<div id="PARAGRAPH53" class='ladi-element'>
-				<div class='ladi-paragraph'>VÀO LÚC 11 GIỜ 30, THỨ 7, NGÀY 02, THÁNG 11, NĂM 2024</div>
+				<div class='ladi-paragraph'>VÀO LÚC 13 GIỜ 00, THỨ 7, NGÀY 02, THÁNG 11, NĂM 2024</div>
 			</div>
 			<div id="PARAGRAPH54" class='ladi-element'>
-				<div class='ladi-paragraph'><span style="font-weight: normal;">( TẠI: Xóm 7 Xuân Giang, Xuân Trường, Nam Định)</span></div>
+				<div class='ladi-paragraph'><span style="font-weight: normal;">( TẠI: Xóm 3, Xuân Phong, xã Xuân Giang, Xuân Trường, Nam Định)</span></div>
 			</div>
 			<div id="GROUP18" class='ladi-element'>
 				<div class='ladi-group'>
