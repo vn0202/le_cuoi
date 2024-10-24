@@ -130,7 +130,7 @@
 	<script>
 		function handleText(text)
 		{
-			return text.replace(/(%20|_)/g, " ");
+			return text.replace(/(%20|_|-)/g, " ");
 		}
 		document.addEventListener("DOMContentLoaded", ()=>{
 			const params = new URLSearchParams(window.location.search);
