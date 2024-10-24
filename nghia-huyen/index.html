@@ -128,6 +128,10 @@
     </style>
 
     <script>
+      function handleText(text)
+      {
+        return text.replace(/(%20|_)/g, " ");
+      }
         document.addEventListener("DOMContentLoaded", ()=>{
             const params = new URLSearchParams(window.location.search);
             let  textToShow = "Bạn";
@@ -136,12 +140,12 @@
 
             if (params.has('text')) {
                 // Get the value of 'text' query parameter
-                 textToShow = params.get('text');
+                 textToShow = handleText(params.get('text'));
 
             }
             if (params.has('fullname')) {
                 // Get the value of 'text' query parameter
-                fullname = params.get('fullname');
+                fullname = handleText(params.get('fullname'));
                 const text_fullname_placeholder =  document.getElementsByClassName("full-name-friend");
 
                 for (const textFullPlaceholderElement of text_fullname_placeholder) {
@@ -156,7 +160,7 @@
                 }
                 if (params.has('attachment')) {
                     // Get the value of 'text' query parameter
-                    attachment_placeholder_text = params.get('attachment');
+                    attachment_placeholder_text = handleText(params.get('attachment'));
 
                 }
                 const attachment_placeholder =  document.getElementsByClassName("attachment");
